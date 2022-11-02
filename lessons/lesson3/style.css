@@ -1,0 +1,41 @@
+
+body{
+    height: 10000px;
+}
+
+h1{
+    text-align: left;
+    color: blue;
+
+}
+/* 100 */
+#test{
+    color: orange;
+}
+/* 1 */
+p{ 
+    color: blue /*!important - 10000*/; 
+}
+/* 10 */
+.top{
+    color: green;
+}
+.vip{
+    color: fuchsia;
+}
+span{
+    font-style: italic;
+}
+p span{
+    color: goldenrod;
+}
+.mini{
+    font-weight: 900;
+}
+p.mini{
+    font-weight: 500;
+}
+
+div#ttt.aaa ul.qqq.bbb li#test.vvv.yyy a#ooo.rrr span{
+    
+}

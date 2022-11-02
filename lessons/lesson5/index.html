@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body{
+            height: 10000px;
+        }
+        h1 + p {
+            color: red
+        }
+
+        h1 ~ p{
+            font-style: italic;
+        }
+        div > span{
+            color: blue;
+        }
+        input[type="text"]{
+            border: 1px solid red;
+        }
+        input[type="password"]{
+            border: 1px solid green;
+        }
+        input[type="email"]{
+            border: 1px solid blue;
+        }
+        input[type="number"]{
+            border: 1px solid violet;
+        }
+        /* a[href^="https"]{
+            font-weight: bold;
+        }
+        a[href$="ru/"]{
+            font-style: italic;
+        }
+        a[href*="142.93.172.35"]{
+            text-decoration: none;
+        } */
+
+        p::selection{
+            background: #000;
+            color: greenyellow;
+        }
+
+        h3::before{
+            content: '------- ';
+        }
+        h3::after{
+            content: ' -------';
+        }
+
+        a:link{
+            color: brown;
+        }
+        a:visited{
+            color: goldenrod;
+        }
+        a:focus{
+            font-weight: bold;
+        }
+        a:active{
+            font-style: italic;
+        }
+        a:hover{
+            background: red;
+            color: #fff;
+        }
+        /* li:first-child{
+            background: red;
+            color: #fff;
+        }
+        li:nth-child(4){
+            background: green;
+            color: #fff;
+        }
+        li:last-child{
+            background: blue;
+            color: #fff;
+        } */
+
+        li:nth-child(3n+3){
+            background: green;
+            color: #fff;
+        }
+        p:first-of-type{
+            border: 3px solid;
+        }
+    </style>
+</head>
+<body>
+    <p>fdfdf</p>
+    <h1>Объявления</h1>
+    <h3>sdsdsd</h3>
+    <h4>sdsdsdsd</h4>
+
+    <p>test</p>
+    <p>hello</p>
+
+    <h3>test</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, aliquid consequatur. Minus reprehenderit earum molestias veniam quia quos expedita? Nam reprehenderit officiis blanditiis ut doloribus incidunt velit, non quas omnis?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Asperiores quos unde vero labore, tenetur magni ex provident perspiciatis earum accusamus eligendi, laborum quasi, explicabo fugit fugiat corrupti mollitia veritatis inventore?</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, cum nesciunt voluptatum quae perferendis ea, eum maxime earum ducimus cupiditate beatae aliquid odit quaerat et quasi expedita ex sequi provident.</p>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda maxime eum minima qui commodi expedita, odit voluptatem sint est corrupti necessitatibus inventore impedit porro at facilis enim sed reiciendis veritatis.</p>
+    <h3>test</h3>
+
+    <span>span1</span>    
+    <h3>test</h3>
+    <div>
+        <span>span2</span>
+        <p>
+            <span>span3</span>
+        </p>
+    </div>
+    <h3>test</h3>
+    <input type="text"> <br>
+    <input type="email"> <br>
+    <input type="password"> <br>
+    <input type="number"> <br>
+    <input type="text"> <br>
+    <input type="email"> <br>
+
+    <hr>
+
+    <a href="https://av.by/">av.by</a> 
+    <br>
+    <a href="http://142.93.172.35:8080/">142.93.172.35</a> 
+    <br>
+    <a href="https://aliexpress.ru/">aliexpress</a> 
+    <br>
+    <a href="https://aliexpress111.ru/">aliexpress111</a> 
+    <br>
+
+    <hr>
+
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+
+</body>
+</html>
